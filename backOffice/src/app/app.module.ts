@@ -22,6 +22,8 @@ import { ListTicketsComponent } from './components/list-tickets/list-tickets.com
 import { AddEditTicketComponent } from './components/add-edit-tickets/add-edit-tickets.component';
 import { AddEditUsersComponent } from './components/add-edit-users/add-edit-users.component';
 import { ListUsersComponent } from './components/list-users/list-users.component';
+import { ListLocalizacionComponent } from './components/list-localizacion/list-localizacion.component';
+import { AddEditLocalizacionComponent } from './components/add-edit-localizacion/add-edit-localizacion.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ListUsersComponent } from './components/list-users/list-users.component
     ListTicketsComponent,
     AddEditTicketComponent,
     AddEditUsersComponent,
-    ListUsersComponent
+    ListUsersComponent,
+    ListLocalizacionComponent,
+    AddEditLocalizacionComponent
   ],
   imports: [
     BrowserModule,

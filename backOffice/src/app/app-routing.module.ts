@@ -8,6 +8,8 @@ import { ListTicketsComponent } from './components/list-tickets/list-tickets.com
 import { AddEditTicketComponent } from './components/add-edit-tickets/add-edit-tickets.component';
 import { ListUsersComponent } from './components/list-users/list-users.component';
 import { AddEditUsersComponent } from './components/add-edit-users/add-edit-users.component';
+import { ListLocalizacionComponent } from './components/list-localizacion/list-localizacion.component';
+import { AddEditLocalizacionComponent } from './components/add-edit-localizacion/add-edit-localizacion.component';
 
 const routes: Routes = [
   
@@ -23,6 +25,9 @@ const routes: Routes = [
   {path:'user',component:ListUsersComponent},
   {path:'user/add',component:AddEditUsersComponent},
   {path:'user/edit/:idUser',component:AddEditUsersComponent},
+  {path:'localizacion',component:ListLocalizacionComponent},
+  {path:'localizacion/add',component:AddEditLocalizacionComponent},
+  {path:'localizacion/edit/:idLocalizacion',component:AddEditLocalizacionComponent},
   {path:'**',redirectTo:'',pathMatch:'full'} //Este siempre el ultimo
 ];
 
